@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="galleries, 小白白">
+    <meta name="keywords" content="相册, 小白白">
     <meta name="description" content="小白白">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -17,7 +17,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>galleries | 小白白</title>
+    <title>相册 | 小白白</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     
 
@@ -166,7 +166,7 @@
           
           <i class="fas fa-music" style="margin-top: -20px; zoom: 0.6;"></i>
           
-          <span>Music</span>
+          <span>音乐</span>
         </a>
       </li>
       
@@ -175,16 +175,7 @@
           
           <i class="fas fa-film" style="margin-top: -20px; zoom: 0.6;"></i>
           
-          <span>Movies</span>
-        </a>
-      </li>
-      
-      <li>
-        <a href="/books">
-          
-          <i class="fas fa-book" style="margin-top: -20px; zoom: 0.6;"></i>
-          
-          <span>Books</span>
+          <span>视频</span>
         </a>
       </li>
       
@@ -193,7 +184,7 @@
           
           <i class="fas fa-image" style="margin-top: -20px; zoom: 0.6;"></i>
           
-          <span>Galleries</span>
+          <span>相册</span>
         </a>
       </li>
       
@@ -324,7 +315,7 @@
 				  
 				   <i class="fa fas fa-music" style="position: absolute;left:50px" ></i>
 			      
-		          <span>Music</span>
+		          <span>音乐</span>
                   </a>
                 </li>
               
@@ -334,17 +325,7 @@
 				  
 				   <i class="fa fas fa-film" style="position: absolute;left:50px" ></i>
 			      
-		          <span>Movies</span>
-                  </a>
-                </li>
-              
-                <li>
-
-                  <a href="/books " style="margin-left:75px">
-				  
-				   <i class="fa fas fa-book" style="position: absolute;left:50px" ></i>
-			      
-		          <span>Books</span>
+		          <span>视频</span>
                   </a>
                 </li>
               
@@ -354,7 +335,7 @@
 				  
 				   <i class="fa fas fa-image" style="position: absolute;left:50px" ></i>
 			      
-		          <span>Galleries</span>
+		          <span>相册</span>
                   </a>
                 </li>
               
@@ -437,7 +418,8 @@
 
 </header>
 
-    <link rel="stylesheet" href="/css/gallery.css">
+    
+<link rel="stylesheet" href="/css/gallery.css">
 
 <div class="bg-cover pd-header about-cover">
     <div class="container">
@@ -492,8 +474,25 @@
 <main class="content">
     <div class="container">
         
+        
+        <div class="gallery-wrapper row">
+            
+            
+            <div class="col s6 m4 l4 xl3 gallery-box">
+                <a href="./好好的" class="gallery-item" data-aos="zoom-in-up">
+                     <div class="gallery-cover-box" style="background-image: url(好好的/0.jpg);">
+                    </div>
+                    <p class="gallery-name">
+                        好好的
+                    </p>
+                </a>
+            </div>
+            
+        </div>
+        
     </div>
 </main>
+
 
     <footer class="page-footer bg-color">
     
@@ -509,6 +508,9 @@
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
             |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
             <br>
+            
+                &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                        class="white-color">1.2k</span>
             
             
             
@@ -712,6 +714,15 @@ $(function () {
 
     
 
+    
+        
+        <script type="text/javascript">
+            // 只在桌面版网页启用特效
+            var windowWidth = $(window).width();
+            if (windowWidth > 768) {
+                document.write('<script type="text/javascript" src="/libs/others/sakura.js"><\/script>');
+            }
+        </script>
     
 
     <!-- 雪花特效 -->
