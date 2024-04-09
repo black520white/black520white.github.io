@@ -556,7 +556,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-tags="卢麒元, 卢麒元文集" data-aos="fade-up">
                 <div class="card">
-                    <a href="/2021/08/02/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2021-08-02-mmt-xin-huo-bi-li-lun/">
+                    <a href="/posts/2021/20210802-119de1b9.html">
                         <div class="card-image tag-image">
                             
                             
@@ -588,7 +588,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-tags="卢麒元, 卢麒元文集" data-aos="fade-up">
                 <div class="card">
-                    <a href="/2021/07/11/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2021-07-11-shui-zheng-gai-bu-liu-de-ming/">
+                    <a href="/posts/2021/20210711-cd13bbaf.html">
                         <div class="card-image tag-image">
                             
                             
@@ -620,7 +620,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-tags="卢麒元, 卢麒元文集" data-aos="fade-up">
                 <div class="card">
-                    <a href="/2021/07/11/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2021-07-11-shui-gai-bu-liu-xie-de-ge-ming/">
+                    <a href="/posts/2021/20210711-2bf84d13.html">
                         <div class="card-image tag-image">
                             
                             
@@ -652,7 +652,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-tags="卢麒元, 卢麒元文集" data-aos="fade-up">
                 <div class="card">
-                    <a href="/2021/07/04/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2021-07-04-ba-feng-chui-bu-dong/">
+                    <a href="/posts/2021/20210704-cafb07bd.html">
                         <div class="card-image tag-image">
                             
                             
@@ -684,7 +684,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-tags="卢麒元, 卢麒元文集" data-aos="fade-up">
                 <div class="card">
-                    <a href="/2021/06/14/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2021-06-14-ru-he-kua-yue-guan-liao-long-duan-zi-ben-zhu-yi-de-xian-jing/">
+                    <a href="/posts/2021/20210614-8ac1952e.html">
                         <div class="card-image tag-image">
                             
                             
@@ -716,7 +716,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-tags="卢麒元, 卢麒元文集" data-aos="fade-up">
                 <div class="card">
-                    <a href="/2021/05/30/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2021-05-30-qing-guo-chu-huang-jin/">
+                    <a href="/posts/2021/20210530-da8c1298.html">
                         <div class="card-image tag-image">
                             
                             
@@ -748,7 +748,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-tags="卢麒元, 卢麒元文集" data-aos="fade-up">
                 <div class="card">
-                    <a href="/2021/05/19/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2021-05-19-hui-mou-yi-xiao-yi-qian-nian/">
+                    <a href="/posts/2021/20210519-39e813e1.html">
                         <div class="card-image tag-image">
                             
                             
@@ -780,7 +780,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-tags="卢麒元, 卢麒元文集" data-aos="fade-up">
                 <div class="card">
-                    <a href="/2021/05/02/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2021-05-02-xiang-gang-zhi-ai/">
+                    <a href="/posts/2021/20210502-e977eb1b.html">
                         <div class="card-image tag-image">
                             
                             
@@ -812,7 +812,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-tags="卢麒元, 卢麒元文集" data-aos="fade-up">
                 <div class="card">
-                    <a href="/2021/04/05/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2021-04-05-rui-bo-yu-la-bi/">
+                    <a href="/posts/2021/20210405-3ebb91a7.html">
                         <div class="card-image tag-image">
                             
                             
@@ -844,7 +844,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-tags="卢麒元, 卢麒元文集" data-aos="fade-up">
                 <div class="card">
-                    <a href="/2021/03/31/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2021-03-31-mei-yuan-zou-shang-liao-bu-gui-lu/">
+                    <a href="/posts/2021/20210331-48f1cc51.html">
                         <div class="card-image tag-image">
                             
                             
@@ -921,7 +921,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">4187.2k</span>
+                        class="white-color">4187.3k</span>
             
             
             
@@ -1125,12 +1125,15 @@ $(function () {
 
     
 
+    <!-- 樱花花特效 -->
     
         
         <script type="text/javascript">
             // 只在桌面版网页启用特效
             var windowWidth = $(window).width();
-            if (windowWidth > 768) {
+	   // 文章页面不展示
+	    var url = window.location.href;
+            if (windowWidth > 768 && !url.includes('posts')) {
                 document.write('<script type="text/javascript" src="/libs/others/sakura.js"><\/script>');
             }
         </script>

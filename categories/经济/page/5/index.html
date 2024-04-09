@@ -522,7 +522,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2023/07/01/jing-ji/lu-qi-yuan/lu-qi-yuan-man-tan/2023-07-01-han-chang-li-wen-ji-di-5-jiang-song-li-yuan-gui-pan-gu-xu/">
+                    <a href="/posts/2023/20230701-ee656670.html">
                         <div class="card-image tag-image">
                             
                             
@@ -573,7 +573,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2023/06/24/jing-ji/lu-qi-yuan/lu-qi-yuan-man-tan/2023-06-24-qiang-mei-yuan-de-bei-lun/">
+                    <a href="/posts/2023/20230624-bcc3e74c.html">
                         <div class="card-image tag-image">
                             
                             
@@ -624,7 +624,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2023/06/17/jing-ji/lu-qi-yuan/lu-qi-yuan-man-tan/2023-06-17-han-chang-li-wen-ji-di-4-jiang-jin-xue-jie/">
+                    <a href="/posts/2023/20230617-8b111bf4.html">
                         <div class="card-image tag-image">
                             
                             
@@ -675,7 +675,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2023/06/10/jing-ji/lu-qi-yuan/lu-qi-yuan-man-tan/2023-06-10-bai-nian-wei-yu-zhi-da-bian-ju-liao-ji-ju-shi-chang/">
+                    <a href="/posts/2023/20230610-bb13664a.html">
                         <div class="card-image tag-image">
                             
                             
@@ -725,7 +725,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2023/06/05/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2023-06-05-wen-ge-de-ben-zhi-yi-ji-xian-shi-yi-yi/">
+                    <a href="/posts/2023/20230605-676f9be7.html">
                         <div class="card-image tag-image">
                             
                             
@@ -778,7 +778,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2023/06/03/jing-ji/lu-qi-yuan/lu-qi-yuan-man-tan/2023-06-03-han-chang-li-wen-ji-di-3-jiang-yuan-dao/">
+                    <a href="/posts/2023/20230603-289a776e.html">
                         <div class="card-image tag-image">
                             
                             
@@ -829,7 +829,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2023/05/27/jing-ji/lu-qi-yuan/lu-qi-yuan-man-tan/2023-05-27-mei-guo-dao-zhai-wei-ji-yu-zhong-guo-tong-huo-jin-suo/">
+                    <a href="/posts/2023/20230527-aeb0eb32.html">
                         <div class="card-image tag-image">
                             
                             
@@ -880,7 +880,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2023/05/20/jing-ji/lu-qi-yuan/lu-qi-yuan-man-tan/2023-05-20-han-chang-li-wen-ji-di-2-jiang-han-yu-sheng-ping-ji-si-xiang-mai-luo-shi-chang-de-bian-dong-yi-ji-wo-men-de-yi-xie-xiang-fa/">
+                    <a href="/posts/2023/20230520-9327fdb2.html">
                         <div class="card-image tag-image">
                             
                             
@@ -930,7 +930,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2023/05/13/jing-ji/lu-qi-yuan/lu-qi-yuan-man-tan/2023-05-13-bo-ke-xi-er-ha-sa-wei-de-tou-zi-zhe-chun-wan/">
+                    <a href="/posts/2023/20230513-faf9ccd6.html">
                         <div class="card-image tag-image">
                             
                             
@@ -981,7 +981,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2023/05/06/jing-ji/lu-qi-yuan/lu-qi-yuan-man-tan/2023-05-06-han-chang-li-wen-ji-di-1-jiang-da-tang-ning-si/">
+                    <a href="/posts/2023/20230506-c80b7ec9.html">
                         <div class="card-image tag-image">
                             
                             
@@ -1077,7 +1077,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">4187.2k</span>
+                        class="white-color">4187.3k</span>
             
             
             
@@ -1281,12 +1281,15 @@ $(function () {
 
     
 
+    <!-- 樱花花特效 -->
     
         
         <script type="text/javascript">
             // 只在桌面版网页启用特效
             var windowWidth = $(window).width();
-            if (windowWidth > 768) {
+	   // 文章页面不展示
+	    var url = window.location.href;
+            if (windowWidth > 768 && !url.includes('posts')) {
                 document.write('<script type="text/javascript" src="/libs/others/sakura.js"><\/script>');
             }
         </script>

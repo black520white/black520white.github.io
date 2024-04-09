@@ -479,7 +479,7 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2009/09/11/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2009-09-11-mei-gu-hui-da-die-ma/">
+                    <a href="/posts/2009/20090911-8138a8b7.html">
                         <div class="card-image">
                             
                             
@@ -532,7 +532,7 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2009/09/07/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2009-09-07-ban-ben-long-ma-yu-chuan-zhong-ba-ce/">
+                    <a href="/posts/2009/20090907-dba336bb.html">
                         <div class="card-image">
                             
                             
@@ -586,7 +586,7 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2009/09/04/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2009-09-04-zhi-guo-xian-zhi-shui/">
+                    <a href="/posts/2009/20090904-ebcba70a.html">
                         <div class="card-image">
                             
                             
@@ -642,7 +642,7 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2009/09/01/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2009-09-01-chong-jian-she-hui-zhu-yi-neng-li/">
+                    <a href="/posts/2009/20090901-d96a3b39.html">
                         <div class="card-image">
                             
                             
@@ -697,7 +697,7 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2009/08/25/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2009-08-25-shui-zai-ti-zhong-guo-gu-shi-gu-zhi/">
+                    <a href="/posts/2009/20090825-d4cab353.html">
                         <div class="card-image">
                             
                             
@@ -750,7 +750,7 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2009/08/20/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2009-08-20-jing-ti-zhong-guo-jing-ji-tu-ran-shi-su/">
+                    <a href="/posts/2009/20090820-ba611805.html">
                         <div class="card-image">
                             
                             
@@ -803,7 +803,7 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2009/08/14/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2009-08-14-gao-fang-jie-shi-zai-zhuan-yi-guo-min-fu-li/">
+                    <a href="/posts/2009/20090814-80e7c14c.html">
                         <div class="card-image">
                             
                             
@@ -857,7 +857,7 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2009/08/11/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2009-08-11-tong-suo-guai-lun-yu-tong-zhang-guai-xiang/">
+                    <a href="/posts/2009/20090811-adb51f12.html">
                         <div class="card-image">
                             
                             
@@ -911,7 +911,7 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2009/08/07/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2009-08-07-da-wan-de-shi-dai/">
+                    <a href="/posts/2009/20090807-d3d3d22f.html">
                         <div class="card-image">
                             
                             
@@ -965,7 +965,7 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2009/07/31/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2009-07-31-ping-zhen-hua-bu-quan-shuo/">
+                    <a href="/posts/2009/20090731-23a43589.html">
                         <div class="card-image">
                             
                             
@@ -1065,7 +1065,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">4187.2k</span>
+                        class="white-color">4187.3k</span>
             
             
             
@@ -1269,12 +1269,15 @@ $(function () {
 
     
 
+    <!-- 樱花花特效 -->
     
         
         <script type="text/javascript">
             // 只在桌面版网页启用特效
             var windowWidth = $(window).width();
-            if (windowWidth > 768) {
+	   // 文章页面不展示
+	    var url = window.location.href;
+            if (windowWidth > 768 && !url.includes('posts')) {
                 document.write('<script type="text/javascript" src="/libs/others/sakura.js"><\/script>');
             }
         </script>

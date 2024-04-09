@@ -556,7 +556,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-tags="卢麒元, 卢麒元文集" data-aos="fade-up">
                 <div class="card">
-                    <a href="/2010/08/29/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2010-08-29-nan-zai-li-ya/">
+                    <a href="/posts/2010/20100829-21f4e5ea.html">
                         <div class="card-image tag-image">
                             
                             
@@ -588,7 +588,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-tags="卢麒元, 卢麒元文集" data-aos="fade-up">
                 <div class="card">
-                    <a href="/2010/08/25/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2010-08-25-kai-en-si-de-ji-mo/">
+                    <a href="/posts/2010/20100825-b7339b0b.html">
                         <div class="card-image tag-image">
                             
                             
@@ -620,7 +620,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-tags="卢麒元, 卢麒元文集" data-aos="fade-up">
                 <div class="card">
-                    <a href="/2010/08/18/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2010-08-18-yao-jian-li-wai-xian-zuo-zhan-de-neng-li/">
+                    <a href="/posts/2010/20100818-8136e2d6.html">
                         <div class="card-image tag-image">
                             
                             
@@ -652,7 +652,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-tags="卢麒元, 卢麒元文集" data-aos="fade-up">
                 <div class="card">
-                    <a href="/2010/08/16/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2010-08-16-mu-ji-bu-xia-dan/">
+                    <a href="/posts/2010/20100816-dd9a278a.html">
                         <div class="card-image tag-image">
                             
                             
@@ -684,7 +684,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-tags="卢麒元, 卢麒元文集" data-aos="fade-up">
                 <div class="card">
-                    <a href="/2010/08/11/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2010-08-11-huang-shi-ren-yu-jin-rong-chuang-xin/">
+                    <a href="/posts/2010/20100811-185f959f.html">
                         <div class="card-image tag-image">
                             
                             
@@ -716,7 +716,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-tags="卢麒元, 卢麒元文集" data-aos="fade-up">
                 <div class="card">
-                    <a href="/2010/08/04/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2010-08-04-gui-yi-de-mei-guo-tong-huo-jin-suo/">
+                    <a href="/posts/2010/20100804-cdae40a4.html">
                         <div class="card-image tag-image">
                             
                             
@@ -748,7 +748,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-tags="卢麒元, 卢麒元文集" data-aos="fade-up">
                 <div class="card">
-                    <a href="/2010/07/28/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2010-07-28-dai-bing-fu-su/">
+                    <a href="/posts/2010/20100728-92a1930.html">
                         <div class="card-image tag-image">
                             
                             
@@ -780,7 +780,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-tags="卢麒元, 卢麒元文集" data-aos="fade-up">
                 <div class="card">
-                    <a href="/2010/07/22/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2010-07-22-dian-nong-de-xing-ge/">
+                    <a href="/posts/2010/20100722-a086f53f.html">
                         <div class="card-image tag-image">
                             
                             
@@ -812,7 +812,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-tags="卢麒元, 卢麒元文集" data-aos="fade-up">
                 <div class="card">
-                    <a href="/2010/07/15/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2010-07-15-zuo-yi-ge-zi-zai-de-tou-zi-zhe/">
+                    <a href="/posts/2010/20100715-c8662506.html">
                         <div class="card-image tag-image">
                             
                             
@@ -844,7 +844,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-tags="卢麒元, 卢麒元文集" data-aos="fade-up">
                 <div class="card">
-                    <a href="/2010/07/13/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2010-07-13-jian-yi-zu-jian-guo-jia-zhan-lue-chu-bei-ju/">
+                    <a href="/posts/2010/20100713-86cbfdc.html">
                         <div class="card-image tag-image">
                             
                             
@@ -921,7 +921,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">4187.2k</span>
+                        class="white-color">4187.3k</span>
             
             
             
@@ -1125,12 +1125,15 @@ $(function () {
 
     
 
+    <!-- 樱花花特效 -->
     
         
         <script type="text/javascript">
             // 只在桌面版网页启用特效
             var windowWidth = $(window).width();
-            if (windowWidth > 768) {
+	   // 文章页面不展示
+	    var url = window.location.href;
+            if (windowWidth > 768 && !url.includes('posts')) {
                 document.write('<script type="text/javascript" src="/libs/others/sakura.js"><\/script>');
             }
         </script>

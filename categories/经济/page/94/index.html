@@ -522,7 +522,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2008/05/01/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2008-05-01-zhong-guo-wai-jiao-zheng-ce-xu-yao-shen-ke-fan-si/">
+                    <a href="/posts/2008/20080501-9987ea92.html">
                         <div class="card-image tag-image">
                             
                             
@@ -572,7 +572,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2008/04/29/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2008-04-29-jing-ti-chi-an-zuo-kong/">
+                    <a href="/posts/2008/20080429-651a0fc9.html">
                         <div class="card-image tag-image">
                             
                             
@@ -623,7 +623,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2008/04/25/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2008-04-25-guan-yu-jing-ji-zheng-ce-de-ruo-gan-si-kao/">
+                    <a href="/posts/2008/20080425-70a4606.html">
                         <div class="card-image tag-image">
                             
                             
@@ -674,7 +674,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2008/04/18/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2008-04-18-wo-men-zai-jian-shou-shui-de-fang-xian/">
+                    <a href="/posts/2008/20080418-33036c9e.html">
                         <div class="card-image tag-image">
                             
                             
@@ -726,7 +726,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2008/04/17/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2008-04-17-zhong-guo-gu-shi-san-tan/">
+                    <a href="/posts/2008/20080417-9ad652b2.html">
                         <div class="card-image tag-image">
                             
                             
@@ -776,7 +776,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2008/04/14/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2008-04-14-zhi-da-lai-la-ma-shu-yi-si-chen-yuan-duan-fo-xiang/">
+                    <a href="/posts/2008/20080414-7b9ad2b9.html">
                         <div class="card-image tag-image">
                             
                             
@@ -826,7 +826,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2008/04/11/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2008-04-11-lun-zhan-you-jie-zhi/">
+                    <a href="/posts/2008/20080411-55aa3388.html">
                         <div class="card-image tag-image">
                             
                             
@@ -876,7 +876,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2008/04/09/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2008-04-09-yao-qiang-hua-zhi-de-neng-li/">
+                    <a href="/posts/2008/20080409-f65f7bfb.html">
                         <div class="card-image tag-image">
                             
                             
@@ -928,7 +928,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2008/04/07/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2008-04-07-zhi-shi-er-fei-jiu-shi/">
+                    <a href="/posts/2008/20080407-c3657376.html">
                         <div class="card-image tag-image">
                             
                             
@@ -979,7 +979,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2008/04/04/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2008-04-04-zhong-guo-de-bao-er-sen-zai-na-li/">
+                    <a href="/posts/2008/20080404-b3ab309.html">
                         <div class="card-image tag-image">
                             
                             
@@ -1076,7 +1076,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">4187.2k</span>
+                        class="white-color">4187.3k</span>
             
             
             
@@ -1280,12 +1280,15 @@ $(function () {
 
     
 
+    <!-- 樱花花特效 -->
     
         
         <script type="text/javascript">
             // 只在桌面版网页启用特效
             var windowWidth = $(window).width();
-            if (windowWidth > 768) {
+	   // 文章页面不展示
+	    var url = window.location.href;
+            if (windowWidth > 768 && !url.includes('posts')) {
                 document.write('<script type="text/javascript" src="/libs/others/sakura.js"><\/script>');
             }
         </script>

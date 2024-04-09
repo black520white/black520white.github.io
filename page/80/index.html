@@ -479,7 +479,7 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2010/06/16/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2010-06-16-xia-zei-chuan-nan/">
+                    <a href="/posts/2010/20100616-24f49450.html">
                         <div class="card-image">
                             
                             
@@ -533,7 +533,7 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2010/06/08/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2010-06-08-huo-bi-zhan-zheng-de-zhan-lue-zhi-gao-dian/">
+                    <a href="/posts/2010/20100608-afc1dfd1.html">
                         <div class="card-image">
                             
                             
@@ -589,7 +589,7 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2010/05/29/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2010-05-29-jin-jiang-jun-song-lai-liao-hong-lou-meng/">
+                    <a href="/posts/2010/20100529-86db71f5.html">
                         <div class="card-image">
                             
                             
@@ -645,7 +645,7 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2010/05/26/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2010-05-26-kang-da-er-de-ji-yu-fu-shi-kang-de-ren/">
+                    <a href="/posts/2010/20100526-bca292e2.html">
                         <div class="card-image">
                             
                             
@@ -699,7 +699,7 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2010/05/23/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2010-05-23-zan-mei-he-xin/">
+                    <a href="/posts/2010/20100523-289a24b5.html">
                         <div class="card-image">
                             
                             
@@ -753,7 +753,7 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2010/05/20/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2010-05-20-li-yan-zhi-huo/">
+                    <a href="/posts/2010/20100520-6b4c0688.html">
                         <div class="card-image">
                             
                             
@@ -807,7 +807,7 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2010/05/12/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2010-05-12-xi-hong-qian/">
+                    <a href="/posts/2010/20100512-4d25333c.html">
                         <div class="card-image">
                             
                             
@@ -862,7 +862,7 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2010/05/07/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2010-05-07-ao-yuan-xian-xing-jia-xi-de-yi-yi/">
+                    <a href="/posts/2010/20100507-f4c8d937.html">
                         <div class="card-image">
                             
                             
@@ -915,7 +915,7 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2010/05/03/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2010-05-03-kong-bu-de-lao-er/">
+                    <a href="/posts/2010/20100503-6a788a9e.html">
                         <div class="card-image">
                             
                             
@@ -971,7 +971,7 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2010/05/03/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2010-05-03-cai-chan-xing-shou-ru-de-luo-ji-xian-jing/">
+                    <a href="/posts/2010/20100503-988848ea.html">
                         <div class="card-image">
                             
                             
@@ -1070,7 +1070,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">4187.2k</span>
+                        class="white-color">4187.3k</span>
             
             
             
@@ -1274,12 +1274,15 @@ $(function () {
 
     
 
+    <!-- 樱花花特效 -->
     
         
         <script type="text/javascript">
             // 只在桌面版网页启用特效
             var windowWidth = $(window).width();
-            if (windowWidth > 768) {
+	   // 文章页面不展示
+	    var url = window.location.href;
+            if (windowWidth > 768 && !url.includes('posts')) {
                 document.write('<script type="text/javascript" src="/libs/others/sakura.js"><\/script>');
             }
         </script>

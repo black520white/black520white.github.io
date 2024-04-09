@@ -522,7 +522,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2006/08/19/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2006-08-19-ru-he-hua-jie-zhong-guo-de-jin-rong-kun-ju/">
+                    <a href="/posts/2006/20060819-aecae970.html">
                         <div class="card-image tag-image">
                             
                             
@@ -572,7 +572,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2006/08/16/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2006-08-16-xiao-quan-de-zheng-zhi-xuan-yan/">
+                    <a href="/posts/2006/20060816-f487a90d.html">
                         <div class="card-image tag-image">
                             
                             
@@ -623,7 +623,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2006/08/14/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2006-08-14-ai/">
+                    <a href="/posts/2006/20060814-466feded.html">
                         <div class="card-image tag-image">
                             
                             
@@ -675,7 +675,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2006/08/12/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2006-08-12-dao-de-zhi-shu/">
+                    <a href="/posts/2006/20060812-48fed94f.html">
                         <div class="card-image tag-image">
                             
                             
@@ -726,7 +726,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2006/08/07/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2006-08-07-zhong-guo-bu-yao-bei-fang-di-chan-suo-shang/">
+                    <a href="/posts/2006/20060807-a87ccac2.html">
                         <div class="card-image tag-image">
                             
                             
@@ -777,7 +777,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2006/08/03/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2006-08-03-ri-ben-chong-xin-wu-zhuang-de-san-bu-qu/">
+                    <a href="/posts/2006/20060803-fb491d12.html">
                         <div class="card-image tag-image">
                             
                             
@@ -829,7 +829,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2006/08/02/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2006-08-02-zhong-guo-de-zhong-dong-ji-yu/">
+                    <a href="/posts/2006/20060802-7f9de136.html">
                         <div class="card-image tag-image">
                             
                             
@@ -880,7 +880,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2006/07/26/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2006-07-26-gai-ge-ying-zhui-qiu-gong-zhong-li-yi-zui-da-hua/">
+                    <a href="/posts/2006/20060726-c2800b63.html">
                         <div class="card-image tag-image">
                             
                             
@@ -930,7 +930,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2006/07/25/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2006-07-25-bao-er-sen-de-kun-huo/">
+                    <a href="/posts/2006/20060725-a22c9c8b.html">
                         <div class="card-image tag-image">
                             
                             
@@ -980,7 +980,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2006/07/18/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2006-07-18-a-q-wu-ma-de-hou-dai/">
+                    <a href="/posts/2006/20060718-9f351a10.html">
                         <div class="card-image tag-image">
                             
                             
@@ -1077,7 +1077,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">4187.2k</span>
+                        class="white-color">4187.3k</span>
             
             
             
@@ -1281,12 +1281,15 @@ $(function () {
 
     
 
+    <!-- 樱花花特效 -->
     
         
         <script type="text/javascript">
             // 只在桌面版网页启用特效
             var windowWidth = $(window).width();
-            if (windowWidth > 768) {
+	   // 文章页面不展示
+	    var url = window.location.href;
+            if (windowWidth > 768 && !url.includes('posts')) {
                 document.write('<script type="text/javascript" src="/libs/others/sakura.js"><\/script>');
             }
         </script>

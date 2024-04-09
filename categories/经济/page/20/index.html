@@ -522,7 +522,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/05/30/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2021-05-30-qing-guo-chu-huang-jin/">
+                    <a href="/posts/2021/20210530-da8c1298.html">
                         <div class="card-image tag-image">
                             
                             
@@ -573,7 +573,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/05/29/jing-ji/lu-qi-yuan/lu-qi-yuan-man-tan/2021-05-29-zi-ben-lun-di-4-jiang-dong-ma-xi-ma-he-xin-ma-dang-xia-de-jing-ji/">
+                    <a href="/posts/2021/20210529-d2940260.html">
                         <div class="card-image tag-image">
                             
                             
@@ -623,7 +623,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/05/22/jing-ji/lu-qi-yuan/lu-qi-yuan-man-tan/2021-05-22-mmt-he-chao-ji-tong-zhang/">
+                    <a href="/posts/2021/20210522-8ea48dea.html">
                         <div class="card-image tag-image">
                             
                             
@@ -674,7 +674,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/05/19/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2021-05-19-hui-mou-yi-xiao-yi-qian-nian/">
+                    <a href="/posts/2021/20210519-39e813e1.html">
                         <div class="card-image tag-image">
                             
                             
@@ -725,7 +725,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/05/15/jing-ji/lu-qi-yuan/lu-qi-yuan-man-tan/2021-05-15-zi-ben-lun-di-3-jiang-ma-ke-si-sheng-ping-xin-xi-ji-zhu-jia-guan-zhuang-bing-du-deng-yu-she-hui-zhu-yi-ma/">
+                    <a href="/posts/2021/20210515-a64edba8.html">
                         <div class="card-image tag-image">
                             
                             
@@ -775,7 +775,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/05/08/jing-ji/lu-qi-yuan/lu-qi-yuan-man-tan/2021-05-08-yin-du-yu-zhong-yin-guan-xi-ruo-mei-yuan-de-jin-cheng/">
+                    <a href="/posts/2021/20210508-6b8889c9.html">
                         <div class="card-image tag-image">
                             
                             
@@ -826,7 +826,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/05/02/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2021-05-02-xiang-gang-zhi-ai/">
+                    <a href="/posts/2021/20210502-e977eb1b.html">
                         <div class="card-image tag-image">
                             
                             
@@ -876,7 +876,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/05/01/jing-ji/lu-qi-yuan/lu-qi-yuan-man-tan/2021-05-01-zi-ben-lun-di-2-jiang-ma-ke-si-zhu-yi-de-zhe-xue-yuan-quan-dang-xia-de-yi-qing/">
+                    <a href="/posts/2021/20210501-3051ef64.html">
                         <div class="card-image tag-image">
                             
                             
@@ -926,7 +926,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/04/24/jing-ji/lu-qi-yuan/lu-qi-yuan-man-tan/2021-04-24-ru-he-kua-yue-guan-liao-long-duan-zi-ben-zhu-yi-xian-jing-zui-jin-zi-ben-shi-chang-de-bian-dong/">
+                    <a href="/posts/2021/20210424-959bd321.html">
                         <div class="card-image tag-image">
                             
                             
@@ -976,7 +976,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/04/17/jing-ji/lu-qi-yuan/lu-qi-yuan-man-tan/2021-04-17-zi-ben-lun-di-1-jiang-liang-ci-ge-ming-liang-wei-zai-xiang-dui-dang-xia-jing-ji-de-kan-fa/">
+                    <a href="/posts/2021/20210417-c434e5bf.html">
                         <div class="card-image tag-image">
                             
                             
@@ -1072,7 +1072,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">4187.2k</span>
+                        class="white-color">4187.3k</span>
             
             
             
@@ -1276,12 +1276,15 @@ $(function () {
 
     
 
+    <!-- 樱花花特效 -->
     
         
         <script type="text/javascript">
             // 只在桌面版网页启用特效
             var windowWidth = $(window).width();
-            if (windowWidth > 768) {
+	   // 文章页面不展示
+	    var url = window.location.href;
+            if (windowWidth > 768 && !url.includes('posts')) {
                 document.write('<script type="text/javascript" src="/libs/others/sakura.js"><\/script>');
             }
         </script>

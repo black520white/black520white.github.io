@@ -556,7 +556,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-tags="卢麒元, 卢麒元文集" data-aos="fade-up">
                 <div class="card">
-                    <a href="/2020/04/06/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2020-04-06-xi-fang-yi-shi-xing-tai-de-cuo-wei/">
+                    <a href="/posts/2020/20200406-670e7de0.html">
                         <div class="card-image tag-image">
                             
                             
@@ -588,7 +588,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-tags="卢麒元, 卢麒元文集" data-aos="fade-up">
                 <div class="card">
-                    <a href="/2020/04/03/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2020-04-03-dui-jue-2020/">
+                    <a href="/posts/2020/20200403-2c994d26.html">
                         <div class="card-image tag-image">
                             
                             
@@ -620,7 +620,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-tags="卢麒元, 卢麒元文集" data-aos="fade-up">
                 <div class="card">
-                    <a href="/2020/04/02/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2020-04-02-qing-wu-bi-bao-chi-qing-xing/">
+                    <a href="/posts/2020/20200402-8a5ea1ba.html">
                         <div class="card-image tag-image">
                             
                             
@@ -652,7 +652,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-tags="卢麒元, 卢麒元文集" data-aos="fade-up">
                 <div class="card">
-                    <a href="/2020/04/01/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2020-04-01-yi-xiao-fei-quan-dai-ti-xin-ji-jian/">
+                    <a href="/posts/2020/20200401-ad3462ae.html">
                         <div class="card-image tag-image">
                             
                             
@@ -684,7 +684,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-tags="卢麒元, 卢麒元文集" data-aos="fade-up">
                 <div class="card">
-                    <a href="/2020/03/29/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2020-03-29-wu-he-zhi-zhong-bu-pei-wei-min/">
+                    <a href="/posts/2020/20200329-99e54837.html">
                         <div class="card-image tag-image">
                             
                             
@@ -716,7 +716,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-tags="卢麒元, 卢麒元文集" data-aos="fade-up">
                 <div class="card">
-                    <a href="/2020/03/25/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2020-03-25-zhe-bu-shi-jing-ji-wei-ji/">
+                    <a href="/posts/2020/20200325-bb5a0296.html">
                         <div class="card-image tag-image">
                             
                             
@@ -748,7 +748,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-tags="卢麒元, 卢麒元文集" data-aos="fade-up">
                 <div class="card">
-                    <a href="/2020/03/20/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2020-03-20-dao-di-ren-hou-fang-qu/">
+                    <a href="/posts/2020/20200320-56198952.html">
                         <div class="card-image tag-image">
                             
                             
@@ -780,7 +780,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-tags="卢麒元, 卢麒元文集" data-aos="fade-up">
                 <div class="card">
-                    <a href="/2020/03/15/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2020-03-15-zuo-yi-ge-geng-du-de-xing-zhe/">
+                    <a href="/posts/2020/20200315-87701b8c.html">
                         <div class="card-image tag-image">
                             
                             
@@ -812,7 +812,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-tags="卢麒元, 卢麒元文集" data-aos="fade-up">
                 <div class="card">
-                    <a href="/2020/03/11/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2020-03-11-wo-wei-shi-me-fan-dui-xin-ji-jian/">
+                    <a href="/posts/2020/20200311-abd89f5a.html">
                         <div class="card-image tag-image">
                             
                             
@@ -844,7 +844,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-tags="卢麒元, 卢麒元文集" data-aos="fade-up">
                 <div class="card">
-                    <a href="/2020/03/05/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2020-03-05-shen-fang-ji-jian-jie-chi-xin-yong/">
+                    <a href="/posts/2020/20200305-1727e366.html">
                         <div class="card-image tag-image">
                             
                             
@@ -921,7 +921,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">4187.2k</span>
+                        class="white-color">4187.3k</span>
             
             
             
@@ -1125,12 +1125,15 @@ $(function () {
 
     
 
+    <!-- 樱花花特效 -->
     
         
         <script type="text/javascript">
             // 只在桌面版网页启用特效
             var windowWidth = $(window).width();
-            if (windowWidth > 768) {
+	   // 文章页面不展示
+	    var url = window.location.href;
+            if (windowWidth > 768 && !url.includes('posts')) {
                 document.write('<script type="text/javascript" src="/libs/others/sakura.js"><\/script>');
             }
         </script>

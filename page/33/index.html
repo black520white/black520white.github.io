@@ -479,7 +479,7 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2020/02/06/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2020-02-06-zhi-bing-yu-zhi-li/">
+                    <a href="/posts/2020/20200206-a15654c0.html">
                         <div class="card-image">
                             
                             
@@ -534,7 +534,7 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2020/02/01/jing-ji/lu-qi-yuan/lu-qi-yuan-man-tan/2020-02-01-xin-huo-bi-zhu-yi/">
+                    <a href="/posts/2020/20200201-a4732482.html">
                         <div class="card-image">
                             
                             
@@ -587,7 +587,7 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2020/01/29/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2020-01-29-shui-zai-qi-man-zhong-guo/">
+                    <a href="/posts/2020/20200129-ff08130b.html">
                         <div class="card-image">
                             
                             
@@ -643,7 +643,7 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2020/01/25/jing-ji/lu-qi-yuan/lu-qi-yuan-man-tan/2020-01-25-tan-xin-xi-shi-dai-li-shi-hui-gu-shu-zi-zi-ben-hua-ji-di-huo-ming-yi/">
+                    <a href="/posts/2020/20200125-7578f918.html">
                         <div class="card-image">
                             
                             
@@ -696,7 +696,7 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2020/01/24/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2020-01-24-shuo-mei/">
+                    <a href="/posts/2020/20200124-ef037c7f.html">
                         <div class="card-image">
                             
                             
@@ -752,7 +752,7 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2020/01/18/jing-ji/lu-qi-yuan/lu-qi-yuan-man-tan/2020-01-18-huo-bi-yu-tong-huo-tan-zhong-mei-di-yi-jie-duan-mao-yi-xie-ding-ji-e-luo-si-zheng-fu-gai-zu/">
+                    <a href="/posts/2020/20200118-f5142c9f.html">
                         <div class="card-image">
                             
                             
@@ -806,7 +806,7 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2020/01/15/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2020-01-15-xi-li-chang-ping-kun-huo/">
+                    <a href="/posts/2020/20200115-e2363c1e.html">
                         <div class="card-image">
                             
                             
@@ -860,7 +860,7 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2020/01/11/jing-ji/lu-qi-yuan/lu-qi-yuan-man-tan/2020-01-11-sa-yi-de-dong-fang-xue-yu-hou-zhi-min-zhu-yi-zhong-dong-luan-ju-yu-qu-mei-hua-mei-gu-yu-mei-yuan-de-wei-lai/">
+                    <a href="/posts/2020/20200111-8627d4a9.html">
                         <div class="card-image">
                             
                             
@@ -913,7 +913,7 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2020/01/04/jing-ji/lu-qi-yuan/lu-qi-yuan-man-tan/2020-01-04-jin-rong-de-ben-zhi-lpr-yu-zhong-dong-yi-lang-wen-ti/">
+                    <a href="/posts/2020/20200104-c53777f1.html">
                         <div class="card-image">
                             
                             
@@ -967,7 +967,7 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2019/12/30/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2019-12-30-zhen-bie-zuo-yi/">
+                    <a href="/posts/2019/20191230-e76264.html">
                         <div class="card-image">
                             
                             
@@ -1068,7 +1068,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">4187.2k</span>
+                        class="white-color">4187.3k</span>
             
             
             
@@ -1272,12 +1272,15 @@ $(function () {
 
     
 
+    <!-- 樱花花特效 -->
     
         
         <script type="text/javascript">
             // 只在桌面版网页启用特效
             var windowWidth = $(window).width();
-            if (windowWidth > 768) {
+	   // 文章页面不展示
+	    var url = window.location.href;
+            if (windowWidth > 768 && !url.includes('posts')) {
                 document.write('<script type="text/javascript" src="/libs/others/sakura.js"><\/script>');
             }
         </script>

@@ -522,7 +522,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2017/06/09/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2017-06-09-xiang-gang-qian-zai-jin-rong-wei-ji-you-duo-da/">
+                    <a href="/posts/2017/20170609-fa8c3f82.html">
                         <div class="card-image tag-image">
                             
                             
@@ -573,7 +573,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2017/05/19/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2017-05-19-te-lang-pu-shui-gai-yu-zi-ben-zheng-duo-zhan/">
+                    <a href="/posts/2017/20170519-3a72949c.html">
                         <div class="card-image tag-image">
                             
                             
@@ -623,7 +623,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2017/05/11/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2017-05-11-ma-ke-long-de-dai-zhuo-er-zhu-yi-jiu-shu/">
+                    <a href="/posts/2017/20170511-a133194b.html">
                         <div class="card-image tag-image">
                             
                             
@@ -674,7 +674,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2017/05/09/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2017-05-09-zuo-shi-me-cai-neng-yong-ren-min-de-ming-yi/">
+                    <a href="/posts/2017/20170509-6fb6f2.html">
                         <div class="card-image tag-image">
                             
                             
@@ -724,7 +724,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2017/05/01/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2017-05-01-jian-shui-de-jing-ji-xue-han-yi/">
+                    <a href="/posts/2017/20170501-697ceaf0.html">
                         <div class="card-image tag-image">
                             
                             
@@ -775,7 +775,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2017/04/02/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2017-04-02-qing-ming-jie-de-lai-li/">
+                    <a href="/posts/2017/20170402-921b219e.html">
                         <div class="card-image tag-image">
                             
                             
@@ -826,7 +826,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2017/03/28/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2017-03-28-di-le-sen-de-shi-ming-zhe-she-mei-guo-zhan-lue/">
+                    <a href="/posts/2017/20170328-99f4b507.html">
                         <div class="card-image tag-image">
                             
                             
@@ -876,7 +876,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2017/03/28/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2017-03-28-min-quan-yu-fa-tong/">
+                    <a href="/posts/2017/20170328-ddabe4d3.html">
                         <div class="card-image tag-image">
                             
                             
@@ -926,7 +926,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2017/03/16/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2017-03-16-gang-ren-wei-he-bu-guan-xin-jing-ji-zhi-du-he-zheng-ce/">
+                    <a href="/posts/2017/20170316-5bd432d0.html">
                         <div class="card-image tag-image">
                             
                             
@@ -976,7 +976,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2017/02/28/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2017-02-28-te-lang-pu-shui-gai-ru-he-can-yu-bo-yi/">
+                    <a href="/posts/2017/20170228-d8c80ce2.html">
                         <div class="card-image tag-image">
                             
                             
@@ -1072,7 +1072,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">4187.2k</span>
+                        class="white-color">4187.3k</span>
             
             
             
@@ -1276,12 +1276,15 @@ $(function () {
 
     
 
+    <!-- 樱花花特效 -->
     
         
         <script type="text/javascript">
             // 只在桌面版网页启用特效
             var windowWidth = $(window).width();
-            if (windowWidth > 768) {
+	   // 文章页面不展示
+	    var url = window.location.href;
+            if (windowWidth > 768 && !url.includes('posts')) {
                 document.write('<script type="text/javascript" src="/libs/others/sakura.js"><\/script>');
             }
         </script>

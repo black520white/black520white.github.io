@@ -556,7 +556,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-tags="卢麒元, 卢麒元文集" data-aos="fade-up">
                 <div class="card">
-                    <a href="/2002/07/13/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2002-07-13-huan-yuan-zhi-zhe-ben-se/">
+                    <a href="/posts/2002/20020713-d08655a2.html">
                         <div class="card-image tag-image">
                             
                             
@@ -588,7 +588,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-tags="卢麒元, 卢麒元文集" data-aos="fade-up">
                 <div class="card">
-                    <a href="/2001/12/25/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2001-12-25-su-lian-jie-ti-shi-nian-ji/">
+                    <a href="/posts/2001/20011225-329046c9.html">
                         <div class="card-image tag-image">
                             
                             
@@ -664,7 +664,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">4187.2k</span>
+                        class="white-color">4187.3k</span>
             
             
             
@@ -868,12 +868,15 @@ $(function () {
 
     
 
+    <!-- 樱花花特效 -->
     
         
         <script type="text/javascript">
             // 只在桌面版网页启用特效
             var windowWidth = $(window).width();
-            if (windowWidth > 768) {
+	   // 文章页面不展示
+	    var url = window.location.href;
+            if (windowWidth > 768 && !url.includes('posts')) {
                 document.write('<script type="text/javascript" src="/libs/others/sakura.js"><\/script>');
             }
         </script>

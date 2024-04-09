@@ -522,7 +522,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2011/02/28/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2011-02-28-mei-cai-chang-xie-lu-zhong-guo-tong-zhang-tian-ji/">
+                    <a href="/posts/2011/20110228-863c4ab.html">
                         <div class="card-image tag-image">
                             
                             
@@ -572,7 +572,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2011/02/24/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2011-02-24-gai-te-na-yu-ren-min-bi-gu-zhi/">
+                    <a href="/posts/2011/20110224-a9bf85f.html">
                         <div class="card-image tag-image">
                             
                             
@@ -622,7 +622,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2011/02/22/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2011-02-22-mou-ding-er-hou-cong-rong/">
+                    <a href="/posts/2011/20110222-fd1bd49b.html">
                         <div class="card-image tag-image">
                             
                             
@@ -672,7 +672,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2011/02/16/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2011-02-16-ru-he-ying-dui-tong-huo-peng-zhang/">
+                    <a href="/posts/2011/20110216-9e317360.html">
                         <div class="card-image tag-image">
                             
                             
@@ -723,7 +723,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2011/01/28/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2011-01-28-yi-chan-shui-yu-xian-jin-wen-hua/">
+                    <a href="/posts/2011/20110128-c766f361.html">
                         <div class="card-image tag-image">
                             
                             
@@ -774,7 +774,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2011/01/18/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2011-01-18-lun-guo-jia-jing-ji-zhu-quan/">
+                    <a href="/posts/2011/20110118-d3fb9a19.html">
                         <div class="card-image tag-image">
                             
                             
@@ -824,7 +824,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2011/01/14/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2011-01-14-zheng-shou-fang-chan-shui-jiang-shi-yi-ci-jian-nan-de-zheng-zhi-kao-yan/">
+                    <a href="/posts/2011/20110114-895fa6e8.html">
                         <div class="card-image tag-image">
                             
                             
@@ -875,7 +875,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2011/01/07/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2011-01-07-lun-pei-yang/">
+                    <a href="/posts/2011/20110107-9db37c69.html">
                         <div class="card-image tag-image">
                             
                             
@@ -928,7 +928,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2011/01/04/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2011-01-04-mei-guo-wei-he-bu-tong-zhang/">
+                    <a href="/posts/2011/20110104-c65c2940.html">
                         <div class="card-image tag-image">
                             
                             
@@ -979,7 +979,7 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2010/12/29/jing-ji/lu-qi-yuan/lu-qi-yuan-wen-ji/2010-12-29-zhong-guo-ying-fou-jia-ru-tpp/">
+                    <a href="/posts/2010/20101229-ccb73e23.html">
                         <div class="card-image tag-image">
                             
                             
@@ -1075,7 +1075,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">4187.2k</span>
+                        class="white-color">4187.3k</span>
             
             
             
@@ -1279,12 +1279,15 @@ $(function () {
 
     
 
+    <!-- 樱花花特效 -->
     
         
         <script type="text/javascript">
             // 只在桌面版网页启用特效
             var windowWidth = $(window).width();
-            if (windowWidth > 768) {
+	   // 文章页面不展示
+	    var url = window.location.href;
+            if (windowWidth > 768 && !url.includes('posts')) {
                 document.write('<script type="text/javascript" src="/libs/others/sakura.js"><\/script>');
             }
         </script>
